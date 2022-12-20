@@ -1,0 +1,4 @@
+/** CYPRESS NOTES **/
+npm init -y -> iniciamos el package json
+npm i -D cypress prettier -> Instalamos Cypress
+npx cypress open -> abrir cypress
