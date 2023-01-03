@@ -1,4 +1,5 @@
-describe('Navegacion', () => {
+//Aca podemos elegir el navegador en la linea 2 y si queremos en todas menos en chrome sería !chrome
+describe('Navegacion', {browser: 'chrome'}, () => {
 
     it('Navegar a platzi', () => {
         cy.visit('https://platzi.com/')

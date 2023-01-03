@@ -11,7 +11,13 @@ module.exports = defineConfig({
     baseUrl: "https://demoqa.com",
     setupNodeEvents(on, config) {
       
-      
+      //Para poder configurar el task
+      on('task',{
+        log(message){
+         console.log('Mensaje del console log del task ' + message)
+         return null
+        } 
+     })
       
     },
     
