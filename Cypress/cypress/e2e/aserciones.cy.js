@@ -23,6 +23,7 @@ describe('Aserciones', () => {
 		cy.get('#firstName').then((element) => {
 			expect(element).to.be.visible
 			expect(element).to.have.attr('placeholder', 'First Name')
+			
 		})
 	})
 	it('Aserciones 3', () => {
